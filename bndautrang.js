@@ -118,6 +118,8 @@ jQuery(window).load(function() {
 			jQuery(divpopup).attr('class', 'linhnguyen-modal');
 			jQuery( "body" ).append(divpopup);
 			jQuery("#myModal").html("<a href='http://goo.gl/JH8UDl' target='_blank'><img src='https://lh3.googleusercontent.com/proxy/JCuoWYV9hOM24CBwBRZsPUnIXwxwSVVAzkJQeSZnRlW-waYQi1gkESU_DSSro8VqRJzuUsba9CdIMsL4UzD5HftF3_UsJEGcXsI4QODJMPBWDGdgjyOgpTkK=w500-h350-p-rw' width='500px'/><br/>Trà dây đặc trị viêm loét dạ dày tá tràng</a>,<a href='http://goo.gl/KvLBZK'>Trà dây cao cấp đặc trị vi khuẩn hp </a>. Không tác dụng ăn ngủ tốt hơn. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			
+			
 			jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
 		}
 });
